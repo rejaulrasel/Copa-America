@@ -28,6 +28,7 @@ body{
    transform: scale(1.1);
    transition: transform 1.1s ease-out;
    color: cyan;
+   color: rgb(255, 166, 0)
    
 }
 
@@ -55,6 +56,20 @@ body{
 /* ----------------------------------
          Argentina Squad parts
 ------------------------------------- */
+
+.argentina-squad{
+    width: 1050px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+    margin-top: 70px;
+    margin-left: 150px;
+
+}
 .player{
     width: 330px;
     height: 474px;
@@ -80,7 +95,7 @@ body{
     width: 300px;
     height: 104px;
     margin: 0px 15px 33px;
-    line-height:50%;
+    line-height:80%;
     font-size: 18px;
     font-weight: 700;
     color: lightslategray
