@@ -4,6 +4,14 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* ===========================
+     Main parts starts
+============================= */
+
+/* =======================================
+     Tournament name-banner-parts
+========================================== */
+
 .container{
     background: #2D25A0;
     
@@ -53,9 +61,15 @@ body{
     margin-top: 100px;
 }
 
-/* ----------------------------------
-         Argentina Squad parts
-------------------------------------- */
+
+/* =======================================
+     Tournament name-banner-parts ends
+========================================== */
+
+
+/* ====================================
+         Argentina Squad parts starts
+======================================== */
 
 .argentina-squad{
     width: 1050px;
@@ -98,6 +112,51 @@ body{
     line-height:80%;
     font-size: 18px;
     font-weight: 700;
-    color: lightslategray
+    color: lightslategray;
     
 }
+
+/* ====================================
+         Argentina Squad parts ends
+======================================== */
+
+/* ===========================
+     Main parts ends
+============================= */
+
+/* ==================================
+            Footer parts starts
+   ================================== */ 
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-icon{
+    margin-left: 40px;
+}
+.fab,.far{
+    background-color: cyan;
+    font-size: 20px;
+    color: #969BAB;
+    border-radius: 60px;
+    margin-right: 14px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.copyright-text{
+    font-size:22px ;
+    margin-left: 20px;
+}
+
+/* ==================================
+            Footer parts ends
+   ================================== */ 
+
+
