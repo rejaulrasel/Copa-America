@@ -49,6 +49,7 @@ body{
     width: 168px;
     height: 44px;
     padding: 10px 24px;
+    border-radius: 10px;
    
     
 }
@@ -128,7 +129,13 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    background-color: black
+    background-color: black;
+    
+    
+}
+.point-part:hover .match-data{
+    color: white;
+    transition: color 1.5s ease-out;
     
 }
 
@@ -161,16 +168,59 @@ left: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blue;
-   
-    
-
-    }
-    
+    color: blue; 
+}
 
 /*=================================== 
           point part ends
 ==================================== */
+
+
+/* ================================
+       Matches part starts
+=================================== */
+.matches{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.match{
+   margin-right: 50px;
+   box-shadow: 5px 5px 10px  gray;
+}
+.match:hover{
+    transform: scale(1.1);
+    transition: transform 2s ease-out, color 1.5s ease-out;
+    color: blue;
+}
+
+.match-image img{
+    width:450px;
+    height: 250px;
+    padding: 10px;
+}
+
+.match-info{
+    width:450px;
+    text-align: center;
+  
+
+}
+.match-info:hover{
+    transform: scale(1.05);
+    transition: transform 1.5s ease-out;
+    
+}
+.live-link{
+    margin-left:100px;
+}
+ 
+
+
+/* ================================
+       Matches part starts
+=================================== */
 
 /* ===========================
      Main parts ends
